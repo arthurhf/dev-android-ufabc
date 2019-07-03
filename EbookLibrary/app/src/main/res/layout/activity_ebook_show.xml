@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="0"
+        android:padding="15dp">
+    <TextView android:id="@+id/ebook_item_titulo"
+              android:textStyle="bold"
+              android:textSize="20dp"/>
+    <TableRow>
+        <TextView android:text="@string/ebook_item_autor_label"
+                  android:textStyle="bold"/>
+        <TextView android:id="@+id/ebook_item_autor" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/ebook_item_isbn_label"
+                  android:textStyle="bold"/>
+        <TextView android:id="@+id/ebook_item_isbn"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/ebook_item_anopublicacao_label"
+                  android:textStyle="bold"/>
+        <TextView android:id="@+id/ebook_item_anopublicacao"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/ebook_item_editora_label"
+                  android:textStyle="bold"/>
+        <TextView android:id="@+id/ebook_item_editora"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="@string/ebook_item_avaliacao_label"
+                  android:textStyle="bold"/>
+        <TextView android:id="@+id/ebook_item_avaliacao"/>
+    </TableRow>
+
+</TableLayout>

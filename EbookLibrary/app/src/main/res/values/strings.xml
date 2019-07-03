@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">EbookLibrary</string>
+    <string name="title_activity_main">Ebook Library</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ebook_item_titulo">Titulo:</string>
+    <string name="ebook_item_autor_label">Autor:</string>
+
+    <string name="ebook_item_isbn_label">ISBN</string>
+    <string name="ebook_item_anopublicacao_label">Ano de Publicação: </string>
+    <string name="ebook_item_editora_label">Editora: </string>
+    <string name="ebook_item_avaliacao_label">Avaliação: </string>
+    <string name="title_activity_ebook_show">Exibir Ebook</string>
+    <string name="action_add">Adicionar Ebook</string>
+    <string name="title_activity_ebook_insert">Incluir Ebook</string>
+    <string name="insert_ebook_titulo">Titulo</string>
+    <string name="insert_ebook_autor">Autor</string>
+    <string name="insert_ebook_isbn">ISBN</string>
+    <string name="insert_ebook_anopublicacao">Ano de publicação</string>
+    <string name="insert_ebook_editora">Editora</string>
+    <string name="insert_ebook_avaliacao">Avaliação</string>
+    <string name="insert_ebook_save">Salvar</string>
+    <string name="insert_status_ok">Ebook adicionado com sucesso</string>
+    <string name="action_save">Salvar</string>
+</resources>

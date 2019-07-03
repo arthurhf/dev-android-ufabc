@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+    <TextView
+            android:id="@+id/ebook_titulo"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:hint="Ebook Title"/>
+    <TextView
+            android:id="@+id/ebook_autor"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/ebook_titulo"
+            android:hint="Ebook Author"/>
+    <TextView
+            android:id="@+id/ebook_avaliacao"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/ebook_autor"
+            android:hint="Ebook Avaliation"/>
+</RelativeLayout>

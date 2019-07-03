@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="br.edu.ufabc.padm.ebooklibrary">
+
+    <application
+            android:allowBackup="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme"
+            android:name=".App">
+        <activity
+                android:name=".MainActivity"
+                android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".EbookShow"
+                android:label="@string/title_activity_ebook_show" >
+        </activity>
+        <activity
+                android:name=".EbookInsert"
+                android:label="@string/title_activity_ebook_insert" >
+        </activity>
+    </application>
+
+</manifest>
